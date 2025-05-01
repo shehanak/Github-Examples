@@ -36,6 +36,21 @@ git clone https://github.com/ShehanCodes/Github-Examples.git
 cd Github-Examples
 ```
 
+> You'll need to generate a Personal Access Token
+https://github.com/settings/personal-access-tokens
+
+You will use the PAT as your password when you login
+
+- Give it access to Contents for Commits
+
+### SSH
+
+```sh
+git clone git@github.com:ShehanCodes/Github-Examples.git
+```
+
+We will need to create our own SSH rsa key pair
+
 ## Commits
 
 When we want to commit code we can write git commit which will open up the commit edit message in the editor of choice.
@@ -50,6 +65,23 @@ git config --global core.editor emacs
 ```
 
 ## Branches
+
+List of branches
+
+```
+git branch
+```
+
+Create a new branch
+```
+git branch branch-name
+```
+
+Check out the branch
+
+```
+git checkout dev
+```
 
 ## Remotes
 
